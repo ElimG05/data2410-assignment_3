@@ -100,9 +100,9 @@ public class StudentsController(IConfiguration config) : ControllerBase
     [HttpPost("calculate-grades")]
     public async Task<ActionResult<List<Student>>> CalculateGrades()
     {
-        // Write code to calculate and update grades
-
         var studentsWithGrade = new List<Student>();
+
+        // Write code to calculate and update grades
 
         return studentsWithGrade;
     }

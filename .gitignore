@@ -28,3 +28,6 @@ Properties/serviceDependencies*.json
 # Visual Studio
 .vs/
 *.csproj.user
+
+# PDF styling
+pdf-style.css
